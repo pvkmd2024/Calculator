@@ -1,36 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: lightcoral;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
 #num1 {
-  background-color: black;
-  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-#num1:hover {
-  background-color: grey;
 }
 
 #num2 {
-  background-color: black;
-  color: white;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
 
-#num2:hover {
-  background-color: grey;
-}
-
 #result {
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: bold;
   color: darkgreen;
   margin-top: 10px;
 }
+
+#operator {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+#calculate {
+  background-color: #28a745;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#calculate:hover {
+  background-color: #18642a;
+  cursor: pointer;
+}
+#reset {
+  background-color: #dc3545;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+#reset:hover {
+  background-color: #8a1d28;
+  cursor: pointer;
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+input[type="number"] {
+  width: 150px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#result {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+button:nth-of-type(2) {
+  background-color: #dc3545;
+}
+
+button:nth-of-type(2):hover {
+  background-color: #c82333;
+} */
