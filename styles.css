@@ -1,0 +1,36 @@
+body {
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#num1 {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#num1:hover {
+  background-color: grey;
+}
+
+#num2 {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#num2:hover {
+  background-color: grey;
+}
+
+#result {
+  font-size: 15px;
+  color: darkgreen;
+  margin-top: 10px;
+}
